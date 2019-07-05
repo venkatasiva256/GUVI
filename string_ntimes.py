@@ -1,4 +1,4 @@
-N=input()
-string_word="Hello"
-for i in range(N):
-	print(string_word)
+ntimes=int(input())
+word="Hello"
+for i in range(ntimes):
+	print(word)
