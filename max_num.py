@@ -1,13 +1,8 @@
-def max_num(n1,n2,n3):
-	if(n1>=n2)and (n1>=n3):
-		max=n1
-	elif(n2>=n1)and(n2>=n3):
-		max=n2
-	elif(n3>=n1)and(n3>=n2): 
-		max=n3
-	return max
-n1=int(input())
-n2=int(input())
-n3=int(input())
-print(max_num(n1,n2,n3))
-
+n_1,n_2,n_3=map(int,input().split())
+if(n_1>=n_2)and (n_1>=n_3):
+	max=n_1
+elif(n_2>=n_1)and(n_2>=n_3):
+	max=n_2
+else: 
+	max=n_3
+print(max)
