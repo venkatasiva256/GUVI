@@ -1,12 +1,12 @@
-num=int(input())
-t=num
-d=0
-while(num>1):
-    c=0
-    c=int(num%10)
-    d=d+(c**3)
-    num=num/10
-if(d==t):
+number=int(input())
+c=0
+s=number
+while s>0:
+    d=s%10
+    cube=d*d*d
+    c=c+cube
+    s//=10
+if(number==c):
     print("yes")
 else:
     print("no")
