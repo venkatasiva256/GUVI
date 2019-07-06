@@ -1,0 +1,12 @@
+num=int(input())
+t=num
+d=0
+while(num>1):
+    c=0
+    c=int(num%10)
+    d=d+(c**3)
+    num=num/10
+if(d==t):
+    print("yes")
+else:
+    print("no")
