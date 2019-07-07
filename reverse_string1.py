@@ -1,2 +1,3 @@
 word=str(input())
-print(word[::-1])
+result=word[::-1]
+print(result)
