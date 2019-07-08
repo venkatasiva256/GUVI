@@ -1,3 +1,3 @@
-word=str(input())
-result=word[::-1]
-print(result)
+word1=str(input())
+result1=word1[::-1]
+print(result1)
