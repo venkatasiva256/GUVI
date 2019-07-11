@@ -1,5 +1,5 @@
-m,n=map(str,input().split())
-k=int(input())
+m,n,k=map(str,input().split())
+k=int(k)
 r=len(m)
 p=0
 for i in range(r):
