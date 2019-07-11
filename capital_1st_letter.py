@@ -1,0 +1,5 @@
+m=str(input())
+m=m.split()
+m[0]=m[0].capitalize()
+m[1]=m[1].capitalize()
+print(m[0],m[1])
