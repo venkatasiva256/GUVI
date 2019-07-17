@@ -3,8 +3,8 @@ a=list(map(int,input().split()))
 b=list(map(int,input().split()))
 for i in b:
 	if i in a:
-		print("yes")
+		print("YES")
 		break
 	else:
-		print("no")
+		print("NO")
 		break
